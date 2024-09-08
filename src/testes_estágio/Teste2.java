@@ -21,6 +21,6 @@ public class Teste2 {
         return (int) str.chars().mapToObj(c -> (char) c).filter(c -> c == 'a' || c == 'A').count();
     }
 
-	}
+}
 
 
